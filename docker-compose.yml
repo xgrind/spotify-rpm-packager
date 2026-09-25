@@ -2,7 +2,9 @@ services:
   spotify-rpm-packager:
     container_name: spotify-rpm-packager
     image: spotify-rpm-packager:latest
-    build: .
+    build:
+      dockerfile: dockerfile
+      context: .
     env_file: .env
     privileged: True
     ports:
