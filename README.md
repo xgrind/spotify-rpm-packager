@@ -18,13 +18,22 @@ This package includes enhancements and fixes compared to the official .DEB.
 - Defaults flags and environment variables to improve Fedora/RHEL compatibility
 
 
-## Usage, Repository for automatic updates, Common Issues
+## Usage, Self-hosting Repository for automatic updates, Common Issues
 
 [Wiki](https://github.com/zicstardust/spotify-rpm-packager/wiki)
 
 ## Download compiled .RPM
 
-[Release](https://github.com/zicstardust/spotify-rpm-packager/releases)
+### Copr Repositories (automatic updates)
+
+#### Stable Branch:
+`sudo dnf copr enable zicstardust/spotify-client`
+
+#### Testing Branch:
+`sudo dnf copr enable zicstardust/spotify-client-testing`
+
+### GitHub Release
+[GitHub Release](https://github.com/zicstardust/spotify-rpm-packager/releases)
 
 ## License
 
