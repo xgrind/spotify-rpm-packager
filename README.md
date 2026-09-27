@@ -26,11 +26,19 @@ This package includes enhancements and fixes compared to the official .DEB.
 
 ### Copr Repositories (automatic updates)
 
-#### Stable Branch:
-`sudo dnf copr enable zicstardust/spotify-client`
+##### Stable Branch:
 
-#### Testing Branch:
-`sudo dnf copr enable zicstardust/spotify-client-testing`
+``` sh
+sudo dnf copr enable zicstardust/spotify-client
+sudo dnf install spotify-client
+```
+
+##### Testing Branch:
+
+``` sh
+sudo dnf copr enable zicstardust/spotify-client-testing
+sudo dnf install spotify-client
+```
 
 ### GitHub Release
 [GitHub Release](https://github.com/zicstardust/spotify-rpm-packager/releases)
